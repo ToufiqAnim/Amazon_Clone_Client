@@ -9,7 +9,7 @@ const Products = () => {
     const fetchedProducts = async () => {
       try {
         const res = await axios.get(
-          "amazon-clone-sepia-one.vercel.app/products"
+          "https://amazon-clone-sepia-one.vercel.app/products"
         );
         setProducts(res.data);
       } catch (err) {}

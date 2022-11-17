@@ -25,7 +25,7 @@ const ProductDetails = () => {
   }, [id]);
 
   /*     useEffect(() => {
-    fetch(`amazon-clone-sepia-one.vercel.app/products/find/${id}`)
+    fetch(`https://amazon-clone-sepia-one.vercel.app/products/find/${id}`)
       .then((res) => res.json())
       .then((data) => setProductDetail(data));
   }, [id]); */

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "amazon-clone-sepia-one.vercel.app";
+const BASE_URL = "https://amazon-clone-sepia-one.vercel.app";
 
 export const publicRequest = axios.create({
   baseURL: BASE_URL,
