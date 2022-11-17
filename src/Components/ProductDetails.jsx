@@ -25,7 +25,7 @@ const ProductDetails = () => {
   }, [id]);
 
   /*     useEffect(() => {
-    fetch(`http://localhost:5000/products/find/${id}`)
+    fetch(`amazon-clone-sepia-one.vercel.app/products/find/${id}`)
       .then((res) => res.json())
       .then((data) => setProductDetail(data));
   }, [id]); */

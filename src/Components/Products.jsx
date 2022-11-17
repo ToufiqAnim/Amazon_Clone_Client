@@ -8,7 +8,9 @@ const Products = () => {
   useEffect(() => {
     const fetchedProducts = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/products");
+        const res = await axios.get(
+          "amazon-clone-sepia-one.vercel.app/products"
+        );
         setProducts(res.data);
       } catch (err) {}
     };
